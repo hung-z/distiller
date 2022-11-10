@@ -515,7 +515,7 @@ class GradientRankedFilterPruner(_RankedStructureParameterPruner):
             return binary_map
 
 
-from sklearn.linear_model import LinearRegression
+# from sklearn.linear_model import LinearRegression
 
 def _least_square_sklearn(X, Y):
     model = LinearRegression(fit_intercept=False)
